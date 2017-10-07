@@ -1,5 +1,6 @@
 # CSS
 
+## Positioning Block-level Elements
 | CSS Positioning Scheme | Description |
 | --- | --- |
 | static | normal default positioning of the element on the page | 
