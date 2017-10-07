@@ -13,6 +13,26 @@ These are:
 - article
 - aside
 
+```
+-------------------------------------
+|             header                |
+-------------------------------------
+|              main                 |
+|-----------------------------------|
+|         |   section   |           |
+|         |-------------|   aside   |
+|         |   article   |           |
+|   nav   |-------------|-----------|  
+|         |   article   |           |
+|         |-------------|   aside   |
+|         |   section   |           |
+-------------------------------------
+|              main                 |
+|-----------------------------------|
+|             footer                |
+-------------------------------------
+```
+
 The structure elements can contain each other to help structure the page. The following table lays out if the element can be a child or parent of other elements:
 
 Top Row is 'As Parent' 
@@ -24,7 +44,7 @@ Side Row is 'As Child'
 | header  |         |    X    |    X    |    X    |    X    |    X    |         |
 | nav     |    X    |         |         |    X    |         |         |         |
 | main    |         |         |         |    X    |         |         |         |
-| section |         |         |         |         |         |         |         |
+| section |         |         |         |    X    |    X    |         |         |
 | article |         |         |    X    |    X    |         |         |         |
 | aside   |         |         |         |    X    |         |         |         |
 | footer  |         |    X    |    X    |    X    |    X    |    X    |         |
