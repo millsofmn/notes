@@ -5,13 +5,13 @@
 HTML5 with CSS provides an effective way to structure web pages. There are specific elements that can be used to define the document structure contain structure. 
 
 These are:
-- header
-- footer
-- main
-- nav
-- section
-- article
-- aside
+- header - top of the element or page
+- footer - bottom of the element or page
+- main - content of the page
+- nav - navigation links
+- section - portion or area of the page and groups things together
+- article - content accompaying the main content
+- aside - content that is supplementary 
 
 ```
 -------------------------------------
