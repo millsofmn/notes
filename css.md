@@ -21,3 +21,23 @@
 | element:first-of-type | selects first element of type | |
 | element:last-of-type | slects last element of type | |
 | element1~element2 | selects every instance of element2 that is preceded by element 1 | |
+
+
+## CSS3 Transformations
+| Transform Property | Description |
+| --- | --- |
+| transform | Applies a 2D or 3D transformation to an element including roating, moving, skewing, scaling and so forth |
+| transform-origin | Allows you to change a transformed element's position |
+| transform-style | Specifies whether child elements will retain the parent element's position in 3D space |
+| perspective | Specifies the perspective from which a 3D child element is viewed by defining how far it is placed from view |
+| perspective-origin | specifies the bottom position of a 3D element |
+| backface-visibility | Defines whether or not an element is visible when it is roated to face away from the viewer |
+
+## CSS3 Transitions
+| Transition Property | Description |
+| --- | --- |
+| transition | sets the four transition properties into a single property |
+| transition-property | Specifies the CSS property that the transition will affect | 
+| transition-duration | Defines the amount of time that a transition takes |
+| transition-timing-function | Describes the speed of a transition | 
+| transition-delay | Defines when the transition will begin |
