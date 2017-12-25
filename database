@@ -1,0 +1,19 @@
+Database
+
+Structure - database schema
+
+Structural Dependence - a data characteristic in which a change in the database schema affects data access, thus requiring changes in all access programs
+
+Structural Independence - a data characteristic in which changes in the database schema do not affect data access
+
+Data - physical storage
+
+Data Dependence - a data condition in which data representation and manipulation are dependent on the physical data storage characteristics
+
+Data Independence - a data condition in which data access is unaffected by changes in the physical data storage characteristics
+
+Logical Data Format - the way a person views data within the context of a problem domain
+
+Physical Data Format - the way a computer sees (stores) data
+
+Data dictionary - a DBMS component that stores metadata - data about data. The data dictionary contains data definitions as well as data characteristics and relationships. May also incluse data that is external to the DBMS.
