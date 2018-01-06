@@ -1,7 +1,7 @@
 Database Notes
 ==================
 
-##Relationship
+## Relationship
 
 | Name | Notation | Example |
 | --- | --- | ---|
@@ -9,7 +9,7 @@ Database Notes
 |Many-to-many | M:N or *..* | Many receipts record many items and those items are on many receipts |
 |One-to-one | 1:1 or 1..1 | One manager per store |
 
-##Vocab
+## Vocab
 
 Attribute - characteristic of an entity
 Business rule - percise and unambiguous description of a policy, procedure or principle
@@ -28,12 +28,14 @@ Relationship - association amoung entities
 Schema - conceptual organization of the whole database as viewed by the database administrator
 Subschema - defines the portion of the database as seen by an application 
 
-##Relationships
+## Relationships
 
 Hierarchical - each child has only one parent
 Object-oriented - basic data model resembling a structure
 Relational - based on mathematical set theory and represents data as independent relations
 
-##Big Data
+## Big Data
 
 3Vs - volumn, velocity, and variety
+
+Table == Entity Set
