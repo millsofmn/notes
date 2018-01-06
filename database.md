@@ -39,3 +39,23 @@ Relational - based on mathematical set theory and represents data as independent
 3Vs - volumn, velocity, and variety
 
 Table == Entity Set
+
+## Tables and Characteristics
+
+### Approach 
+
+| Table | Set | Record |
+| --- | --- | --- |
+| Table | Relation | Record Type |
+| Row | Tuple | Record | 
+| Column | Attribute | Field |
+
+### Keys
+
+| Key Type | Description |
+| --- | --- |
+| Superkey | An attribute or combination of attributes that uniquely define each row in a table |
+| Candidate key | A minimal (irreducible) superkey; a superkey that does not contain a subset of attributes that is itself a super key |
+| Primary key | A candidate key selected to uniquly identify all other attribute values in a given row; cannot contain null entries | 
+| Foreign key | An attribute or combonation of attributes in one table whoes values must either match the primary key in another table or be null |
+| Secondary key | An attribute or combonation of attributes used strickly for data retrieval purpose |
