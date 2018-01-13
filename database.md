@@ -83,3 +83,39 @@ This rule states that if an attempt is made to delete a record in one table wher
 ## ERM - Entity Relationship Model
 
 ERD - The ERD represents the conceptual database as viewed by the end user. Whereby it depicts the database's main components: entities, attributes and relationships.
+
+* Entities - correspond to a table
+* Attributes - charateristics of entities and each one has a domain or a set of possible values
+* Identifiers(primary keys) - used to uniquely identify each entity instance
+* Composite Identifier - more than one attribute that make up the unique identifier
+
+### Composite and Simple Attributes
+
+The two type of attributes are composite and simple. The simple type are an attribute that cannot be broken up into additional attributes. Whereas a composite is made up of additional attributes. Example of a simple attribute would be maritial status and a composite is and address. An address is made up of multiple simple attributes like the city, state and zip code.
+
+* Single-Valued Attribute - is an attribute that is made up of only a single value.
+* Multivalue Attribute - are attributes that can have many values
+* Derived Attribute - are attributes that are calculated from other attributes.
+
+### Connectivity and Cardinality
+
+Connectivity is used to describe the relationship classification. Where cardinality expresses that minimum and maximum number of occurences of a related entity in the format of (x,y). The first number represents the minimum number of associated entities and the second is the maximum. Whereby cardinalities are usually established by business rules.
+
+### Existence Dependence
+
+* An entity is said to be existence dependence if it can exist in the database only when it's associated with another entity occurance.
+* An entity is said to be existence independence if it can exist in the database apart from all of its related entities. They're referered to as a strong or regular entity.
+
+### Relationships
+
+* Weak or non-identifying relationship -  A relationship in which the primary key of the related entity does not contain a primary key of the parent entity.
+* Strong or identifying relationship - A relationship that occurs when two entities are existence-dependent whereby the primary key of the parent makes up the primary key of the related entity.
+
+### Weak Entities
+
+These are entities that are dependent on another enity to exist. An example is a dependent child on insurance. They wouldn't exist unless the primary existed. 
+
+A weak entity must meet two conditions:
+1. The entity is existance-dependent; it cannot exist without the entity it has the primary relationship with.
+1. The entity has a primary key that is partially or totally derived from the parent entity in the relationship.
+
