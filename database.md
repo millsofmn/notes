@@ -63,3 +63,23 @@ Table == Entity Set
 | Primary key | A candidate key selected to uniquly identify all other attribute values in a given row; cannot contain null entries | 
 | Foreign key | An attribute or combonation of attributes in one table whoes values must either match the primary key in another table or be null |
 | Secondary key | An attribute or combonation of attributes used strickly for data retrieval purpose |
+
+### Referential Integrity
+
+There are 3 types of rules:
+* Delete
+* Insert
+* Update
+
+#### Delete Rules
+
+This rule states that if an attempt is made to delete a record in one table where one or more records with matching foreign key values exist in another table:
+
+* Cascade Delete: All associated records will be deleted.
+* Restrict Delete: The delete operation will not be allowed.
+* Set-to-Null Delete: The foriegn key values are set to Null so we know that the record they used to point to has been deleted.
+
+
+## ERM - Entity Relationship Model
+
+ERD - The ERD represents the conceptual database as viewed by the end user. Whereby it depicts the database's main components: entities, attributes and relationships.
