@@ -119,3 +119,13 @@ A weak entity must meet two conditions:
 1. The entity is existance-dependent; it cannot exist without the entity it has the primary relationship with.
 1. The entity has a primary key that is partially or totally derived from the parent entity in the relationship.
 
+##  Normalization
+
+| Level | Definition | Description |
+|--- |--- |---|
+| first normal form (1NF) | The first stage in the normalization process. It describes a relation depicted in tabular format, with no repeating groups and a primary key identified. All nonkey attributes in the relation are dependent on the primary key. | 1. Table format 2. Each row is unique 3. Pk identified |
+| second normal form (2NF) | The second stage in the normalization process, in which a relation is in 1NF and there are no partial dependencies (dependencies in only part of the primary key). | 1. Already in 1NF 2. All the non-key columns are dependent on the table’s primary key |
+| third normal form (3NF) | A table is in 3NF when it is in 2NF and no nonkey attribute is functionally dependent on another nonkey attribute; that is, it cannot include transitive dependencies. | 1. Already in 2NF 2. It contains only columns that are non-transitively dependent on the primary key |
+| fourth normal form (4NF) | A table is in 4NF if it is in 3NF and contains no multiple independent sets of multivalued dependencies. | |
+
+* Transitive dependence to mean a column’s value relies upon another column through a second intermediate column
