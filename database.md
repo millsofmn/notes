@@ -129,3 +129,5 @@ A weak entity must meet two conditions:
 | fourth normal form (4NF) | A table is in 4NF if it is in 3NF and contains no multiple independent sets of multivalued dependencies. | |
 
 * Transitive dependence to mean a column’s value relies upon another column through a second intermediate column
+
+1. A table that has all key attributes defined, has no repeating groups, and all its attributes are dependent on the primary key
