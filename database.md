@@ -123,11 +123,15 @@ A weak entity must meet two conditions:
 
 | Level | Definition | Description |
 |--- |--- |---|
-| first normal form (1NF) | The first stage in the normalization process. It describes a relation depicted in tabular format, with no repeating groups and a primary key identified. All nonkey attributes in the relation are dependent on the primary key. | 1. Table format 2. Each row is unique 3. Pk identified |
+| first normal form (1NF) | The first stage in the normalization process. It describes a relation depicted in tabular format, with no repeating groups and a primary key identified. All nonkey attributes in the relation are dependent on the primary key. | 1. Table format 2. Each row is unique 3. Pk identified | 
 | second normal form (2NF) | The second stage in the normalization process, in which a relation is in 1NF and there are no partial dependencies (dependencies in only part of the primary key). | 1. Already in 1NF 2. All the non-key columns are dependent on the table’s primary key |
 | third normal form (3NF) | A table is in 3NF when it is in 2NF and no nonkey attribute is functionally dependent on another nonkey attribute; that is, it cannot include transitive dependencies. | 1. Already in 2NF 2. It contains only columns that are non-transitively dependent on the primary key |
 | fourth normal form (4NF) | A table is in 4NF if it is in 3NF and contains no multiple independent sets of multivalued dependencies. | |
 
 * Transitive dependence to mean a column’s value relies upon another column through a second intermediate column
+
+1. 1NF each column has a unique peice of data there are no duplicates and no multiple entries in a single column (i.e. csv)
+2. 2NF it's about the relationship between the columns that are your keys and columns that aren't your keys (so if you have a composite key like course number and date; then the course title is duplicated) if your aren't using composite keys this isn't a worry
+3. 3NF there are no none key fields dependent on a none key field. also remove columns that are easy to compute (example course room has number and capacity you can break out room number and capicity to get to 3NF)
 
 1. A table that has all key attributes defined, has no repeating groups, and all its attributes are dependent on the primary key
