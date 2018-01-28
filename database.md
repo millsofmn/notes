@@ -1,6 +1,13 @@
 Database Notes
 ==================
 
+## File Structures
+
+* Flat files: Files having no internal hierarchy
+* Heap files: Files containing an unsorted set of records that are uniquely identified by a record id which allows them to be inserted or deleted using that id.
+* Index files: Files that store a list of lookup field values from a data file – along with the location (address) in the data file of the corresponding record. Because the lookup field is much smaller than the entire record, the entire index will usually fit in main memory for quick look up. Once the address of the record is obtained from the index, the entire record can then be directly accessed from the data file instead of reading in the entire data file – record by record, in order to locate the desired one.
+* Hashed files: Files are encrypted using hash functions that convert data consisting of various formats into numeric values. This allows for faster data lookup without the use of an index file.
+
 ## Relationship
 
 | Name | Notation | Example |
@@ -28,6 +35,9 @@ Database Notes
 * Schema - conceptual organization of the whole database as viewed by the database administrator
 * Subschema - defines the portion of the database as seen by an application 
 
+Data vs Information: data is raw facts whereas information is that data processed to reveil it's meaning.
+
+
 ## Relationships
 
 * Hierarchical - each child has only one parent
@@ -37,6 +47,11 @@ Database Notes
 * Cardinality - one to many usually annotated with 1..* or 1..4 which denote that the link is only to 4 entities
 * Modality - same is cardinality but the relation ship may not have the link
 
+### Relationship Degree
+
+1. Unary - a relationship in a entity to itself
+2. Binary - a relationship between two entities
+3. Ternary - a relationship between three entities
 
 ## Big Data
 
