@@ -19,3 +19,9 @@
 	 - Function names should be large if the scope is small.
 	 - Class names should be small when they are public.
 	 - Class names should be large when they are private.
+
+## Functions
+1. Functions are small
+2. They are smaller than that
+3. Functions only do one thing and do it well
+   - Extract till you drop
