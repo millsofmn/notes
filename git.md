@@ -14,4 +14,4 @@ GIT
 
 Create new branch: **checkout -b feature/<new_branch>** 
 
-Push to remote: **push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream
+Push to remote: **push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream**
