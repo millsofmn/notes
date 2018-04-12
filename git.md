@@ -12,6 +12,8 @@ GIT
 
 ## Branches
 
-Create new branch: **checkout -b feature/<new_branch>** 
+Create new branch: **git checkout -b feature/<new_branch>** 
 
-Push to remote: **push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream**
+Push to remote: **git push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream**
+
+Check out remote: **git checkout develop**
