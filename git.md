@@ -17,3 +17,5 @@ Create new branch: **git checkout -b feature/<new_branch>**
 Push to remote: **git push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream**
 
 Check out remote: **git checkout develop**
+
+Delete remote and local: **git push origin :feature/<branch>** and **git branch -d feature/<branch>**
