@@ -9,3 +9,9 @@ GIT
 | git push | Push files to remote |
 | git fetch | Check for changes on remote |
 | git pull | Pull in remote changes to current branch |
+
+## Branches
+
+Create new branch: **checkout -b feature/<new_branch>** 
+
+Push to remote: **push --progress --porcelain origin refs/heads/feature/<new_branch>:feature/<new_branch> --set-upstream
