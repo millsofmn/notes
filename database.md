@@ -146,7 +146,8 @@ A weak entity must meet two conditions:
 * Transitive dependence to mean a column’s value relies upon another column through a second intermediate column
 
 1. 1NF each column has a unique peice of data there are no duplicates and no multiple entries in a single column (i.e. csv)
-2. 2NF it's about the relationship between the columns that are your keys and columns that aren't your keys (so if you have a composite key like course number and date; then the course title is duplicated) if your aren't using composite keys this isn't a worry
+2. 2NF it's about the relationship between the columns that are your keys and columns that aren't your keys (so if you have a composite key like course number and date; then the course title is duplicated) if your aren't using composite keys this isn't a worry.
+    Can this column exist without one or the other part of the concatenated primary key? If the answer is "yes" — even once — then the table fails Second Normal Form.
 3. 3NF there are no none key fields dependent on a none key field. also remove columns that are easy to compute (example course room has number and capacity you can break out room number and capicity to get to 3NF)
 
 1. A table that has all key attributes defined, has no repeating groups, and all its attributes are dependent on the primary key
