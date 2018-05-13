@@ -36,3 +36,15 @@ The projectized organization is organized by projects rather than functional wor
 | Manage Proj Budget | Functional Mgr | Functional Mgr | Mixed | Proj Manager | Proj Manager |
 | Proj Mgr Role | Part Time | Part Time | Full Time | Full Time | Full Time |
 | Proj Admin Staff | Part Time | Part Time | Part Time | Full Time | Full Time |
+
+## Benefit Measurement Model 
+
+The benefit measurement model uses a critera to determine if the cost of doing the project outweighs not doing it. There are four common benefits measurements methods:
+
+1. **Cost-Benefit Analysis**: compare the cost of the project to the financial gain of doing it.
+1. **Scoring Model**: has a predefined list of criteria against which the project is rated.
+1. **Payback Period**: is the cash flow technique that identifies the length of time it takes for the project to be profitable. 
+1. **Economic Model**: is a series of financial calculations that or cashflow techniques which provide data on the overall financials of the project. 
+    * **Discounted Cash Flow**: compares the futures value of the project's expected cash flow in today's dollars. (i.e. year 1 $400,000, year 2 $2.5 million and year 3 $3.2 million.
+    * **Net Present Value**: (NVP) is the difference between the present value of cash inflow and the present value of cash outflow over a period of time. (i.e. how much it cost to create and maintain verses how much money it will make over a period of time)
+    * **Internal Rate of Return**: (IRR) is the intrest rate at which a project will make money. It is determined by the discounted rate when present value of the inflow equals the original investment. (Once the cost of the project is paid for. What is the profitablity of it? Maintence verses Income)
