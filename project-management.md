@@ -37,6 +37,12 @@ The projectized organization is organized by projects rather than functional wor
 | Proj Mgr Role | Part Time | Part Time | Full Time | Full Time | Full Time |
 | Proj Admin Staff | Part Time | Part Time | Part Time | Full Time | Full Time |
 
+## Estimating Costs
+
+* **Analogous (top-down) Estimate**: use expert judgment and historical data to provide a high-level estimate for the entire project, a phase of the project, or a deliverable. 
+* **Parametric Estimates**: use a mathematical model to create the estimates. 
+* **Bottom-up Method**: starts at the lowest level of the WBS and calculates the cost of each item within the work packages to obtain a total cost for the project or deliverable.
+
 ## Benefit Measurement Model 
 
 The benefit measurement model uses a critera to determine if the cost of doing the project outweighs not doing it. There are four common benefits measurements methods:
