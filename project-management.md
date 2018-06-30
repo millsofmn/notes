@@ -54,3 +54,7 @@ The benefit measurement model uses a critera to determine if the cost of doing t
     * **Discounted Cash Flow**: compares the futures value of the project's expected cash flow in today's dollars. (i.e. year 1 $400,000, year 2 $2.5 million and year 3 $3.2 million.
     * **Net Present Value**: (NVP) is the difference between the present value of cash inflow and the present value of cash outflow over a period of time. (i.e. how much it cost to create and maintain verses how much money it will make over a period of time)
     * **Internal Rate of Return**: (IRR) is the intrest rate at which a project will make money. It is determined by the discounted rate when present value of the inflow equals the original investment. (Once the cost of the project is paid for. What is the profitablity of it? Maintence verses Income)
+
+
+* **Key Performance Indicator (KPI)** 
+* **Key Performance Parameter (KPP)**
