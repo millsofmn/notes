@@ -9,6 +9,7 @@ GIT
 | git push | Push files to remote |
 | git fetch | Check for changes on remote |
 | git pull | Pull in remote changes to current branch |
+| git checkout -b feat/branch origin/feat/branch | Checkout remote branch with upstream |
 
 ## Branches
 
